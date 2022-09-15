@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.container {
+  text-align: center;
+  position: relative;
+}
+.middle {
+  position: absolute;
+  top: 6%;
+  left: 20%;
+  transform: translate(-50% -50%);
+  color: white;
+  font-size: xx-large;
+  text-align: justify;
+}
+.header {
+background-image: url("images/3.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.culture{
+  text-align: center;
+    position: relative;
+    top: rem;
+    color: black;
+
+}
+h2{
+  text-align: center;
+}
+.img{
+  background-image: url("images/64.jpg");
+  background-size: cover;
+  background-position:center ;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Images {
+  height: 230px;
+  width: 230px;
+}
+
+.Images:hover {
+  display: block;
+  opacity: 0.3;
+}
+#githeri,
+#samaki,
+#biri,
+#mukimo {
+  position: relative;
+  display: none;
+  background-color: whitesmoke;
+  border: 2px solid white;
+  color: rgb(15, 15, 14);
+  font-size: 25px;
+  font-weight: bolder;
+  height: 70px;
+  width: 230px;
+  padding-top: 5px; 
+  background-color: white;
+  border-radius: 18px;
+  text-align: center;
+}
+.folio{
+  text-align: center;
+}
+.footer {
+  text-align: center;
+}
+.footer h3 {
+  font-weight: bold;
+}
+
+@media screen and (max-width:700px) {
+  .body {
+      height: 125vh;
+  }
+  #culture {
+      height: 90vh;
+  }
+  .info {
+      flex-direction: column;
+  }
+  .maasai,
+  .luo,
+  .kikuyu {
+      margin-bottom: 5rem;
+  }
+  
+  
+}
+
+@media screen and (max-width:900px) {
+  .body {
+      height: 125vh;
+  }
+  #culture {
+      height: 90vh;
+  }
+  .info {
+      flex-direction: column;
+  }
+  .maasai,
+  .luo,
+  .kikuyu {
+      margin-bottom: 5rem;
+  }
+  
+}
+
+@media screen and (max-width:1100px) {
+  .body {
+      height: 125vh;
+  }
+  #culture {
+      height: 90vh;
+  }
+  .info{
+      flex-direction: column;
+  }
+  .maasai,
+  .luo,
+  .kikuyu{
+      margin-bottom: 5rem;
+  }
+ 
+}
+
+ 
+
