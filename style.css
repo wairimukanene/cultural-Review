@@ -17,12 +17,13 @@
   font-size: xx-large;
   text-align: justify;
 }
-.header {
-background-image: url("images/3.jpg");
+.bac {
+background-image: url("");
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 80vh;
+    width: 100%;
 }
 .culture{
   text-align: center;
@@ -34,12 +35,12 @@ background-image: url("images/3.jpg");
 h2{
   text-align: center;
 }
-.img{
-  background-image: url("images/64.jpg");
+.bac{
   background-size: cover;
   background-position:center ;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
+  width: 100%;
 }
 .Images {
   height: 230px;

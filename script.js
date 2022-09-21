@@ -53,3 +53,40 @@ $("#work4").hover(function () {
   }, 550)
   $("mukimo").fadeOut();
 });
+$("#maasai").hover(function () {
+  $(this).stop().animate({
+      opacity: .4
+  }, 250);
+  $("#paragraph").slideToggle();
+
+}, function () {
+  $(this).stop().animate({
+      opacity: 1
+  }, 550)
+  $("").fadeOut();
+});
+$("#luo").hover(function () {
+  $(this).stop().animate({
+      opacity: .4
+  }, 250);
+  $("#paragraph1").slideToggle();
+
+}, function () {
+  $(this).stop().animate({
+      opacity: 1
+  }, 550)
+  $("").fadeOut();
+});
+$("#kikuyu").hover(function () {
+  $(this).stop().animate({
+      opacity: .4
+  }, 250);
+  $("#paragraph2").slideToggle();
+
+}, function () {
+  $(this).stop().animate({
+      opacity: 1
+  }, 550)
+  $("").fadeOut();
+});
+
